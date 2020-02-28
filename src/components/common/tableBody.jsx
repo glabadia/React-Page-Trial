@@ -5,9 +5,9 @@ const TableBody = ({ items, showData }) => {
   return (
     <tbody>
       {items.map(item => (
-        <tr key={item.pricing}>
+        <tr key={item.id}>
           {showData.map(data => (
-            <td key={item._id}>{_.get(item, data)}</td>
+            <td key={item.id + data}>{_.get(item, data)}</td>
           ))}
         </tr>
       ))}

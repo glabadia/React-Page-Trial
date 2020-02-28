@@ -26,7 +26,6 @@ const TableHeader = ({ sortColumn: currentColumn, columns, onSort }) => {
           <th key={column.id} onClick={() => raiseSort(column.path)}>
             {column.name}
             {renderSortIcon(column)}
-            {/* <i className="fas fa-sort-up" /> */}
           </th>
         ))}
       </tr>
