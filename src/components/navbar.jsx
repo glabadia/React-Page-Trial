@@ -6,7 +6,10 @@ const NavBar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-          Navbar
+          <img
+            src="https://img.icons8.com/android/24/000000/home.png"
+            alt="home"
+          />
         </Link>
         <button
           className="navbar-toggler"
