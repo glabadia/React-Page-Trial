@@ -36,6 +36,7 @@ const Main = () => {
 
   const handleHouseFilter = houseType => {
     setHouseFilter(houseType._id);
+    setCurrentPage(1);
     console.log(currentHouseFilter);
   };
 
